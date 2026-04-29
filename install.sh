@@ -191,7 +191,7 @@ PHP_INI=$(php -i | grep /.+/php.ini -oE)
 
 mkdir -p /var/www/html/mbilling
 cd /var/www/html/mbilling
-wget --no-check-certificate https://github.com/vcontrole777/discadora/raw/main/MagnusBilling-current.tar.gz
+wget --no-check-certificate https://raw.githubusercontent.com/atendimento0008/discadora/main/MagnusBilling-current.tar.gz
 tar xzf MagnusBilling-current.tar.gz
 
 echo
@@ -509,7 +509,7 @@ installBr() {
    clear
    language='br'
    cd /var/lib/asterisk
-   wget --no-check-certificate https://github.com/vcontrole777/discadora/blob/main/Disc-OS-Sounds-1.0-pt_BR.tar.gz
+   wget --no-check-certificate https://raw.githubusercontent.com/atendimento0008/discadora/main/Disc-OS-Sounds-1.0-pt_BR.tar.gz
    tar xzf Disc-OS-Sounds-1.0-pt_BR.tar.gz
    rm -rf Disc-OS-Sounds-1.0-pt_BR.tar.gz
 
